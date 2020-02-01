@@ -21,13 +21,14 @@ class CashRegister
     # else
     #   @items << name
     # end
-    @total += price*quantity
-    @last_transaction_amount = @total
+    @total += 
+    
     
     quantity.times do 
       @items << name
+        end
+    @last_transaction_amount = price*quantity
     
-    end
     #@total
     #@last_transaction_amount
   end
