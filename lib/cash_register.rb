@@ -21,7 +21,7 @@ class CashRegister
     # else
     #   @items << name
     # end
-    @total += 
+    @total += price*quantity
     
     
     quantity.times do 
